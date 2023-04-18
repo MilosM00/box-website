@@ -5,6 +5,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body{
+    position: relative;
+}
+
+/* START NAVBAR */
+
 .nav{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -34,3 +40,49 @@
     color: #000;
     font-weight: 600;
 }
+
+#hamburger-button{
+    font-size: 20px;
+    display: none;
+}
+
+.hamburger-menu{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0, 0.1);
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 600;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.hamburger-menu > li > a{
+    color: #000;
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    #hamburger-button{
+        display: block;
+    }
+
+    .nav > ul{
+        display: none;
+    }
+
+    .nav{
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* END NAVBAR */
