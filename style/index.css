@@ -10,7 +10,6 @@ body{
 }
 
 /* START NAVBAR */
-
 .nav{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -84,5 +83,4 @@ body{
         padding-right: 20px;
     }
 }
-
 /* END NAVBAR */
