@@ -11,13 +11,15 @@ const hamburgerFalse = () =>{
     hamburgerButton.classList.remove("fa-bars");
     hamburgerButton.classList.add("fa-times");
     hamburgerMenu.style.display = "flex";
+    setTimeout(() => { hamburgerMenu.style.opacity = "1"; }, 10);
 };
 
 const hamburgerTrue = () =>{
     hamburger = true;
     hamburgerButton.classList.add("fa-bars");
     hamburgerButton.classList.remove("fa-times");
-    hamburgerMenu.style.display = "none";
+    setTimeout(() => { hamburgerMenu.style.display = "none"; }, 500);
+    hamburgerMenu.style.opacity = "0";
 };
 
 hamburgerButton.addEventListener("click", () =>{
