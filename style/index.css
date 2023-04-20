@@ -61,6 +61,8 @@ body{
     font-weight: 600;
     border-radius: 10px;
     list-style: none;
+    transition: all 0.5s;
+    opacity: 0;
 }
 
 .hamburger-menu > li > a{
