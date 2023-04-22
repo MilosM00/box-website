@@ -170,4 +170,34 @@ body{
     color: #fff;
     background-color: transparent;
 }
+
+@media (max-width: 850px) {
+    .text-one{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .text-two{
+        font-size: 20px;
+        max-width: 600px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .text-one{
+        font-size: 20px;
+    }
+
+    .text-two{
+        display: none;
+    }
+
+    .hero-overlay > div > a:nth-child(1),
+    .hero-overlay > div > a:nth-child(2){
+        font-size: 15px;
+        padding: 5px;
+        width: 100px;
+    }
+}
 /* END HERO */
