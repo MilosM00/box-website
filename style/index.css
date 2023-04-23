@@ -201,3 +201,74 @@ body{
     }
 }
 /* END HERO */
+
+/* START ABOUT */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #dddddd;
+}
+
+.section-title{
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.horisontal-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #C60C30;
+    margin-bottom: 30px;
+}
+
+.about-inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-inline > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 5px 5px rgba(0,0,0, 0.1);
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.about-inline > div > i{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:#C60C30;
+    border: 2px solid #C60C30;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.about-inline > div > i:hover{
+    transform: rotate(25deg);
+}
+/* END ABOUT */
