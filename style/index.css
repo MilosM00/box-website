@@ -11,6 +11,8 @@ body{
 
 /* START NAVBAR */
 .nav{
+    position: sticky;
+    top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0px 0px 5px 5px rgba(0,0,0, 0.1);
@@ -19,6 +21,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 100;
 }
 
 .nav > a > img{
@@ -46,7 +49,7 @@ body{
 }
 
 .hamburger-menu{
-    position: absolute;
+    position: fixed;
     top: 75px;
     right: 0;
     box-shadow: 0px 0px 5px 5px rgba(0,0,0, 0.1);
@@ -63,6 +66,7 @@ body{
     list-style: none;
     transition: all 0.5s;
     opacity: 0;
+    z-index: 100;
 }
 
 .hamburger-menu > li > a{
@@ -270,5 +274,18 @@ body{
 
 .about-inline > div > i:hover{
     transform: rotate(25deg);
+}
+
+@media (max-width: 980px) {
+    .about-inline{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-inline > div{
+        width: 100%;
+        height: auto;
+    }
 }
 /* END ABOUT */
