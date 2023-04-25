@@ -168,11 +168,17 @@ body{
     width: 150px;
     text-align: center;
     font-weight: 600;
+    transition: all 0.5s;
 }
 
 .hero-overlay > div > a:nth-child(1):hover{
     color: #fff;
     background-color: transparent;
+}
+
+.hero-overlay > div > a:nth-child(2):hover{
+    background-color: #b93751;
+    border: 2px solid #b93751;
 }
 
 @media (max-width: 850px) {
@@ -231,7 +237,7 @@ body{
     width: 250px;
     height: 5px;
     border-radius: 10px;
-    background-color: #C60C30;
+    background: linear-gradient(to right,#b93751,#C60C30);
     margin-bottom: 30px;
 }
 
@@ -289,3 +295,49 @@ body{
     }
 }
 /* END ABOUT */
+
+/* START CTA */
+.cta-section{
+    background: linear-gradient(to right, #b93751, #C60C30);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cta-section > p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.cta-section > a{
+    padding: 10px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.cta-section > a:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+@media (max-width: 650px) {
+    .cta-section{
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* END CTA */
