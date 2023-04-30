@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/index.css">
     <script src="js/hamburger.js" defer></script>
     <script src="js/instructors.js" defer></script>
+    <script src="js/countdown.js" defer></script>
     <title>Box Website</title>
 </head>
 <body>
@@ -40,6 +41,7 @@
     </ul>
     <!-- END NAVBAR -->
 
+
     <!-- START HERO -->
     <div class="hero">
         <img src="images/box-hero.webp" alt="Box Website" />
@@ -60,6 +62,7 @@
         </div>
     </div>
     <!-- END HERO -->
+
 
     <!-- START ABOUT -->
     <div class="about">
@@ -96,12 +99,14 @@
     </div>
     <!-- END ABOUT -->
 
+
     <!-- START CTA -->
     <div class="cta-section">
         <p>Check out our prices!</p>
         <a href="#">Pricelist</a>
     </div>
     <!-- END CTA -->
+
 
     <!-- START INSTRUCTORS -->
     <div class="instructors">
@@ -155,6 +160,31 @@
 
     </div>
     <!-- END INSTRUCTORS -->
+
+
+    <!-- START COUNTDOWN -->
+    <div class="countdown">
+        <div class="countdown-overlay">
+
+            <p class="countdown-title">
+                Be quick, grab an incredible discount of 30% on our prices!
+            </p>
+            <p class="horisontal-line-countdown"></p>
+
+            <div class="timer-inline">
+                <div id="timer"></div>
+                <div id="timer"></div>
+                <div id="timer"></div>
+                <div id="timer"></div>
+            </div>
+
+            <a href="#" id="countdown-pricelist">PRICELIST</a>
+            
+            <p id="time-end">TIME EXPIRED!</p>
+            
+        </div>
+    </div>
+    <!-- END COUNTDOWN -->
     
 </body>
 </html>
