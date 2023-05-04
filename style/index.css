@@ -495,7 +495,7 @@ body{
 }
 
 .timer-inline > div{
-    font-family: Verdana sans-serif;
+    font-family: 'Bitter', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -630,12 +630,12 @@ body{
     box-shadow: 0 0 5px 5px rgba(0,0,0, 0.1);
     border-radius: 10px;
     width: 300px;
-    height: 400px;
+    height: 450px;
 }
 
 .inline-pricelist > div > p{
     font-size: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .inline-pricelist > div > ul{
@@ -652,10 +652,11 @@ body{
 
 .inline-pricelist > div > a{
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
     background-color: #000;
     color: #fff;
+    font-weight: 600;
     border-radius: 5px;
     width: 150px;
     padding: 10px;
@@ -663,9 +664,11 @@ body{
 
 .price{
     font-size: 50px;
+    font-family: 'Bitter', serif;
 }
 
 .price > del{
+    font-family: 'Bitter', serif;
     font-size: 25px;
     color: #C60C30;
 }
@@ -675,6 +678,7 @@ body{
 }
 
 .sale{
+    font-family: 'Bitter', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -685,8 +689,9 @@ body{
     background-color: #C60C30;
     color: #fff;
     font-weight: 600;
-    width: 40px;
-    height: 40px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 /* END PRICELIST */
