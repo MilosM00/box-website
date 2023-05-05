@@ -655,11 +655,18 @@ body{
     margin-top: 25px;
     text-align: center;
     background-color: #000;
+    border: 2px solid #000;
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
     width: 150px;
     padding: 10px;
+    transition: all 0.5s;
+}
+
+.inline-pricelist > div > a:hover{
+    background-color: transparent;
+    color: #000;
 }
 
 .price{
@@ -693,5 +700,11 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+@media (max-width: 980px) {
+    .inline-pricelist{
+        flex-direction: column;
+    }
 }
 /* END PRICELIST */
