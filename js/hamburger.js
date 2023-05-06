@@ -10,15 +10,15 @@ const hamburgerFalse = () =>{
     hamburger = false;
     hamburgerButton.classList.remove("fa-bars");
     hamburgerButton.classList.add("fa-times");
-    hamburgerMenu.style.display = "flex";
-    setTimeout(() => { hamburgerMenu.style.opacity = "1"; }, 10);
+    hamburgerMenu.style.visibility = "visible";
+    hamburgerMenu.style.opacity = "1";
 };
 
 const hamburgerTrue = () =>{
     hamburger = true;
     hamburgerButton.classList.add("fa-bars");
     hamburgerButton.classList.remove("fa-times");
-    setTimeout(() => { hamburgerMenu.style.display = "none"; }, 500);
+    hamburgerMenu.style.visibility = "hidden";
     hamburgerMenu.style.opacity = "0";
 };
 
