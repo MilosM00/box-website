@@ -768,4 +768,42 @@ body{
 /* END VIDEO */
 
 /* START MODAL */
+.modal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.modal > div{
+    position: relative;
+    width: 50%;
+    height: 500px;
+}
+
+.modal > div > iframe{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.modal > div > i{
+    position: absolute;
+    top: -30px;
+    right: -30px;
+
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
 /* END MODAL */
