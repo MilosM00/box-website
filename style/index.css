@@ -767,8 +767,8 @@ body{
 }
 /* END VIDEO */
 
-/* START MODAL */
-.modal{
+/* START MODAL VIDEO */
+.modal-video{
     position: fixed;
     top: 0;
     width: 100%;
@@ -789,19 +789,19 @@ body{
     transition: all 0.5s;
 }
 
-.modal > div{
+.modal-video > div{
     position: relative;
     width: 50%;
     height: 400px;
 }
 
-.modal > div > iframe{
+.modal-video > div > iframe{
     border: none;
     height: 100%;
     width: 100%;
 }
 
-.modal > div > i{
+.modal-video > div > i{
     position: absolute;
     top: -25px;
     right: -25px;
@@ -812,11 +812,11 @@ body{
 }
 
 @media (max-width: 900px) {
-    .modal > div{
+    .modal-video > div{
         width: 100%;
     }
 }
-/* END MODAL */
+/* END MODAL VIDEO */
 
 
 /* START GALLERY */
@@ -867,3 +867,54 @@ body{
     .grid-gallery{ width: 100%; }
 }
 /* END GALLERY */
+
+/* START MODAL GALLERY */
+.modal-gallery{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 100;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.modal-gallery > div{
+    position: relative;
+}
+
+.modal-gallery > div > img{
+    width: 800px;
+    border-radius: 5px;
+}
+
+#close-modal-gallery{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .modal-gallery > div{
+        width: 80%;
+    }
+    .modal-gallery > div > img{
+        width: 100%;
+    }
+}
+/* END MODAL GALLERY */
