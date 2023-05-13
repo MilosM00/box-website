@@ -884,6 +884,7 @@ body{
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    cursor: zoom-out;
 
     visibility: hidden;
     opacity: 0;
