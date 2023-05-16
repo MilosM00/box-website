@@ -931,6 +931,71 @@ body{
 /* END MODAL GALLERY */
 
 
+/* START CONTACT */
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #C60C30, #b93751);
+}
+
+.contact > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+}
+
+.contact > div > i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.contact > div > i:hover{
+    transform: rotate(25deg);
+}
+
+.contact > div > p{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact > div > a{
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact > div > a:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .contact{
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+/* END CONTACT */
+
+
 /* START FOOTER */
 footer{
     padding-top: 50px;
