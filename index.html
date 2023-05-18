@@ -214,7 +214,7 @@
                     <li>◆ Lorem ipsum dolor sit</li>
                 </ul>
                 <a href="#">BUY</a>
-                <div class="sale">30%</div>
+                <div class="sale">-30%</div>
             </div>
 
             <div>
@@ -229,7 +229,7 @@
                     <li>◆ Lorem ipsum dolor sit</li>
                 </ul>
                 <a href="#">BUY</a>
-                <div class="sale">30%</div>
+                <div class="sale">-30%</div>
             </div>
 
             <div>
@@ -244,7 +244,7 @@
                     <li>◆ Lorem ipsum dolor sit</li>
                 </ul>
                 <a href="#">BUY</a>
-                <div class="sale">30%</div>
+                <div class="sale">-30%</div>
             </div>
         </div>
     </div>
@@ -405,6 +405,17 @@
 
         </div>
     </footer>
+
+    <div class="after-footer">
+        <p>
+            © <span class="year"></span> Designed And Developed By <a href="https://github.com/milosm00">MM</a>.
+        </p>
+    </div>
+
+    <script>
+        let date = new Date();
+        document.querySelector(".year").textContent = date.getFullYear();
+    </script>
     <!-- END FOOTER -->
     
 </body>
