@@ -122,3 +122,5 @@ footer > div > p{
 </style>
 
 <!-- END FOOTER -->
+
+<?php // THIS IS PHP ?>
