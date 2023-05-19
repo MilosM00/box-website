@@ -106,3 +106,5 @@
 </style>
 
 <!-- END NAVBAR -->
+
+<?php // THIS IS PHP ?>
