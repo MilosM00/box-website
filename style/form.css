@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ddd;
+}
+
+.form-container > p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.horisontal-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right,#b93751,#C60C30);
+    margin-bottom: 30px;
+}
+
+.form-container > form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(to right,#b93751,#C60C30);
+    width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-container > form > label{
+    width: 100%;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-container > form > input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-container > form > input:focus{
+    outline: none;
+}
+
+.input-submit{
+    width: 200px !important;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0 !important;
+    border: 2px solid #fff !important;
+    transition: all 0.5s;
+}
+
+.input-submit:hover{
+    color: #fff;
+    background-color: transparent;
+}
