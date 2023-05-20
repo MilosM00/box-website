@@ -29,6 +29,13 @@
 </script>
 
 <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
 footer{
     padding-top: 50px;
     padding-bottom: 50px;
