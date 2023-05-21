@@ -44,7 +44,7 @@
 
 
     <!-- START ABOUT -->
-    <div class="about">
+    <div class="about" id="about">
 
         <p class="section-title">About Us</p>
         <p class="horisontal-line"></p>
@@ -88,7 +88,7 @@
 
 
     <!-- START INSTRUCTORS -->
-    <div class="instructors">
+    <div class="instructors" id="instructors">
         
         <p class="section-title">Our Instructors</p>
         <p class="horisontal-line"></p>
@@ -173,7 +173,7 @@
     <!-- END COUNTDOWN -->
 
     <!-- START PRICELIST -->
-    <div class="pricelist">
+    <div class="pricelist" id="pricelist">
         <p class="section-title">Our Packages</p>
         <p class="horisontal-line"></p>
 
@@ -247,7 +247,7 @@
 
 
     <!-- START GALLERY -->
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <div class="section-title">Gallery</div>
         <div class="horisontal-line"></div>
 
@@ -297,7 +297,7 @@
 
 
     <!-- START CONTACT -->
-    <div class="contact">
+    <div class="contact" id="contact">
         <div>
             <i class="fa fa-envelope"></i>
             <p>boxing@gmail.com</p>
@@ -314,9 +314,9 @@
 
 
     <!-- START TESTIMONIALS -->
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
 
-        <p class="section-title">WHAT OUR CLIENTS SAY</p>
+        <p class="section-title">What Our Clients Say</p>
         <p class="horisontal-line"></p>
 
         <div class="testimonials-inline">
