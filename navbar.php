@@ -3,24 +3,26 @@
 <nav class="nav">
     <a href="#" class="nav-image"><img src="images/box-logo.jpg" alt="Box Website" /></a>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Instructors</a></li>
-        <li><a href="#">Pricelist</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Testimonials</a></li>
+        <li><a href="index.php#">Home</a></li>
+        <li><a href="index.php#about">About</a></li>
+        <li><a href="index.php#instructors">Instructors</a></li>
+        <li><a href="index.php#pricelist">Pricelist</a></li>
+        <li><a href="index.php#gallery">Gallery</a></li>
+        <li><a href="index.php#contact">Contact</a></li>
+        <li><a href="index.php#testimonials">Testimonials</a></li>
     </ul>
 
     <i class="fa fa-bars" id="hamburger-button"></i>
 </nav>
 
 <ul class="hamburger-menu">
-    <li class="hamburger-li"><a href="#">Home</a></li>
-    <li class="hamburger-li"><a href="#">About</a></li>
-    <li class="hamburger-li"><a href="#">Instructors</a></li>
-    <li class="hamburger-li"><a href="#">Pricelist</a></li>
-    <li class="hamburger-li"><a href="#">Contact</a></li>
-    <li class="hamburger-li"><a href="#">Testimonials</a></li>
+    <li class="hamburger-li"><a href="index.php#">Home</a></li>
+    <li class="hamburger-li"><a href="index.php#about">About</a></li>
+    <li class="hamburger-li"><a href="index.php#instructors">Instructors</a></li>
+    <li class="hamburger-li"><a href="index.php#pricelist">Pricelist</a></li>
+    <li class="hamburger-li"><a href="index.php#gallery">Gallery</a></li>
+    <li class="hamburger-li"><a href="index.php#contact">Contact</a></li>
+    <li class="hamburger-li"><a href="index.php#testimonials">Testimonials</a></li>
 </ul>
 
 <style>
