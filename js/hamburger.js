@@ -36,5 +36,6 @@ hamburgerLi[2].addEventListener("click", () =>{ hamburgerTrue(); });
 hamburgerLi[3].addEventListener("click", () =>{ hamburgerTrue(); });
 hamburgerLi[4].addEventListener("click", () =>{ hamburgerTrue(); });
 hamburgerLi[5].addEventListener("click", () =>{ hamburgerTrue(); });
+hamburgerLi[6].addEventListener("click", () =>{ hamburgerTrue(); });
 
 navImage.addEventListener("click", () =>{ hamburgerTrue(); });
