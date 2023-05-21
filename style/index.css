@@ -5,6 +5,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 40px;
+}
+
 body{
     position: relative;
 }
@@ -144,6 +149,8 @@ body{
 
 .section-title{
     padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     font-size: 30px;
     font-weight: 600;
