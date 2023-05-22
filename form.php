@@ -10,12 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2c28c53cee.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style/form.css">
+    <script src="js/hamburger.js" defer></script>
     <title>Box Website - Form</title>
 </head>
 <body>
     
     <?php include("navbar.php"); ?>
-    <!-- START FORM -->
+
+
     <div class="form-container">
 
         <p>Please, enter your data.</p>
@@ -38,7 +40,7 @@
         </form>
         
     </div>
-    <!-- START FORM -->
+    
     
     <?php include("footer.php"); ?>
 
