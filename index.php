@@ -21,6 +21,7 @@
 
     <?php include("navbar.php"); ?>
 
+
     <!-- START HERO -->
     <div class="hero">
         <img src="images/box-hero.webp" alt="Box Website" />
@@ -362,6 +363,7 @@
     </div>
     <!-- END TESTIMONIALS -->
 
+    
     <?php include("footer.php"); ?>
     
 </body>
