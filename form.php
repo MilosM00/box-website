@@ -17,6 +17,17 @@
     
     <?php include("navbar.php"); ?>
 
+    <?php 
+
+        $pack = "OnlyForm";
+
+        if(isset($_GET["pack"]))
+        {
+            $pack = $_GET["pack"];
+        }
+        
+    ?>
+
 
     <div class="form-container">
 
@@ -25,16 +36,18 @@
 
         <form>
             <label>First Name</label>
-            <input type="text" placeholder="Your first name..." />
+            <input type="text" name="first-name" placeholder="Your first name..." />
             
             <label>Last Name</label>
-            <input type="text" placeholder="Your last name..." />
+            <input type="text" name="last-name" placeholder="Your last name..." />
 
             <label>Phone Number</label>
-            <input type="text" placeholder="Your phone number..." />
+            <input type="text" name="phone" placeholder="Your phone number..." />
 
             <label>E-mail Address</label>
-            <input type="text" placeholder="Your e-mail address..." />
+            <input type="text" name="email" placeholder="Your e-mail address..." />
+
+            <input type="hidden" name="pack" value="<?php echo $pack; ?>" />
 
             <input class="input-submit" type="submit" value="SEND" />
         </form>
