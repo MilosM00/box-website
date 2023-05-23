@@ -190,7 +190,7 @@
                     <li>◆ Lorem ipsum dolor sit</li>
                     <li>◆ Lorem ipsum dolor sit</li>
                 </ul>
-                <a href="#">BUY</a>
+                <a href="form.php?pack=Easy">BUY</a>
                 <div class="sale">-30%</div>
             </div>
 
@@ -205,7 +205,7 @@
                     <li>◆ Lorem ipsum dolor sit</li>
                     <li>◆ Lorem ipsum dolor sit</li>
                 </ul>
-                <a href="#">BUY</a>
+                <a href="form.php?pack=Medium">BUY</a>
                 <div class="sale">-30%</div>
             </div>
 
@@ -220,7 +220,7 @@
                     <li>◆ Lorem ipsum dolor sit</li>
                     <li>◆ Lorem ipsum dolor sit</li>
                 </ul>
-                <a href="#">BUY</a>
+                <a href="form.php?pack=Hard">BUY</a>
                 <div class="sale">-30%</div>
             </div>
         </div>
