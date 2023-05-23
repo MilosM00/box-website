@@ -1,7 +1,7 @@
 <!-- START FOOTER -->
 <footer>
     <div>
-        <a href="#">
+        <a href="index.php#">
             <img src="images/box-logo.jpg" alt="Box Website" />
         </a>
 
