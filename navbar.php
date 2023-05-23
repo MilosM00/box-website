@@ -1,7 +1,7 @@
 <!-- START NAVBAR -->
 
 <nav class="nav">
-    <a href="#" class="nav-image"><img src="images/box-logo.jpg" alt="Box Website" /></a>
+    <a href="index.php#" class="nav-image"><img src="images/box-logo.jpg" alt="Box Website" /></a>
     <ul>
         <li><a href="index.php#">Home</a></li>
         <li><a href="index.php#about">About</a></li>
