@@ -36,8 +36,8 @@
             </p>
 
             <div>
-                <a href="#">Learn More</a>
-                <a href="#">Pricelist</a>
+                <a href="#about">Learn More</a>
+                <a href="#pricelist">Pricelist</a>
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
     <!-- START CTA -->
     <div class="cta-section">
         <p>Check out our prices!</p>
-        <a href="#">Pricelist</a>
+        <a href="#pricelist">Pricelist</a>
     </div>
     <!-- END CTA -->
 
@@ -165,7 +165,7 @@
                 <div><p>S</p></div>
             </div>
 
-            <a href="#" id="countdown-pricelist">PRICELIST</a>
+            <a href="#pricelist" id="countdown-pricelist">PRICELIST</a>
             
             <p id="time-end">TIME EXPIRED!</p>
             
