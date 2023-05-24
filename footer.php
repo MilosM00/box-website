@@ -19,7 +19,7 @@
 
 <div class="after-footer">
     <p>
-        © <span class="year"></span> Designed And Developed By <a href="https://github.com/milosm00">MM</a>.
+        © <span class="year"></span> Designed And Developed By <a href="https://github.com/milosm00" target="_blank">MM</a>.
     </p>
 </div>
 
