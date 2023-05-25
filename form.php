@@ -34,7 +34,7 @@
         <p>Please, enter your data.</p>
         <div class="horisontal-line"></div>
 
-        <form>
+        <form action="thank-you.php" method="post">
             <label>First Name</label>
             <input type="text" name="first-name" placeholder="Your first name..." />
             
