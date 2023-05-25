@@ -17,7 +17,24 @@
     
     <?php include("navbar.php"); ?>
 
+
+    <?php 
+
+        include("dbconnection.php");
+
+        $firstName = $_POST["first-name"];
+        $lastName = $_POST["last-name"];
+        $phone = $_POST["phone"];
+        $email = $_POST["email"];
+        $pack = $_POST["pack"];
+
+        $code = $connection->prepare("insert into customer(CustomerFirstName, CustomerLastName, CustomerPhone, CustomerEmail, CustomerPack) values(?, ?, ?, ?, ?);");
+        $code->bind_param("sssss", $firstName, $lastName, $email, $phone, $pack);
+        $code->execute();
+        
+    ?>
     
+
     <div class="container-thank-you">
         <i class="fa fa-check"></i>
         <p>Thank you for your time!</p>
