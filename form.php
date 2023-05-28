@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/2c28c53cee.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style/form.css">
     <script src="js/hamburger.js" defer></script>
+    <script src="js/from.js" defer></script>
     <title>Box Website - Form</title>
 </head>
 <body>
@@ -34,18 +35,18 @@
         <p>Please, enter your data.</p>
         <div class="horisontal-line"></div>
 
-        <form action="thank-you.php" method="post">
-            <label>First Name</label>
-            <input type="text" name="first-name" placeholder="Your first name..." />
+        <form id="from" action="thank-you.php" method="post">
+            <label id="label-first-name">First Name</label>
+            <input id="input-first-name" type="text" name="first-name" placeholder="Your first name..." />
             
-            <label>Last Name</label>
-            <input type="text" name="last-name" placeholder="Your last name..." />
+            <label id="label-last-name">Last Name</label>
+            <input id="input-last-name" type="text" name="last-name" placeholder="Your last name..." />
 
-            <label>Phone Number</label>
-            <input type="text" name="phone" placeholder="Your phone number..." />
+            <label id="label-phone-number">Phone Number</label>
+            <input id="input-phone-number" type="text" name="phone" placeholder="Your phone number..." />
 
-            <label>E-mail Address</label>
-            <input type="text" name="email" placeholder="Your e-mail address..." />
+            <label id="label-email-address">E-mail Address</label>
+            <input id="input-email-address" type="text" name="email" placeholder="Your e-mail address..." />
 
             <input type="hidden" name="pack" value="<?php echo $pack; ?>" />
 
