@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/2c28c53cee.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style/form.css">
     <script src="js/hamburger.js" defer></script>
-    <script src="js/from.js" defer></script>
+    <script src="js/form.js" defer></script>
     <title>Box Website - Form</title>
 </head>
 <body>
@@ -35,7 +35,7 @@
         <p>Please, enter your data.</p>
         <div class="horisontal-line"></div>
 
-        <form id="from" action="thank-you.php" method="post">
+        <form id="form" action="thank-you.php" method="post">
             <label id="label-first-name">First Name</label>
             <input id="input-first-name" type="text" name="first-name" placeholder="Your first name..." />
             
